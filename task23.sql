@@ -1,0 +1,1 @@
+select product_name from ORDERS left join CUSTOMERS on ORDERS.id = CUSTOMERS.id where CUSTOMERS.name like '% alexey %'
